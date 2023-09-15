@@ -1,4 +1,5 @@
 # Optimisation of the Naive NxN Matrix Multiplication Algorithm
+[![Archived](https://img.shields.io/badge/Archived-Yes-red.svg)](https://github.com/yourusername/taquin-game-resolution/archive/master.zip)
 
 The naive matrix multiplication algorithm is a well-known method for multiplying two matrices to produce a resultant matrix. The primary challenge with this algorithm is its complexity of \(O(N^3)\), which represents the worst-case scenario.
 
