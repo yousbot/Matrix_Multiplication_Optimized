@@ -1,14 +1,17 @@
-# OPTIMISATION OF THE NAIVE NxN MATRIX MULTIPLICATION ALGORITHM
+# Optimisation of the Naive NxN Matrix Multiplication Algorithm
 
-The naive matrix multiplication, is an algorithm known of multiplying 2 matrix. Resulting a matrix. The major problem it has is having a compelxity of O(N^3), which is the worst case. 
-Some algorithms were suggested to reduce this time, convergin to O(N^2), which is the not attended ideal case. With simple modification to the naive algorithm, i was able to reduce it's time to O(N^3/2) , means the half. And the case O(N^2) is true for a 3x3 Multiplication. 
-The fact is using two pointers of sum instead of one, and having an eye on the last column. In the case of a N = 2k + 1, the complexity is of O(N^2(N-1)/2), for N = 2k it's O(N^3/2)
+The naive matrix multiplication algorithm is a well-known method for multiplying two matrices to produce a resultant matrix. The primary challenge with this algorithm is its complexity of \(O(N^3)\), which represents the worst-case scenario.
+
+While several algorithms have been proposed to reduce this time complexity, aiming to bring it closer to \(O(N^2)\) (the ideal case that's not always attainable), this project introduces a simple modification to the naive algorithm. By implementing this change, I was able to reduce the algorithm's time complexity to \(O(N^{3/2})\), effectively halving the time. Furthermore, the \(O(N^2)\) case is attainable for 3x3 matrix multiplications.
+
+The key to this optimization is the use of two pointers for summation, rather than just one, and paying special attention to the last column. For matrices where the size \(N = 2k + 1\), the complexity becomes \(O(N^2(N-1)/2)\). For \(N = 2k\), the complexity is \(O(N^{3/2})\).
 
 ![alt text](https://github.com/sbaiidrissiyoussef/Matrix_Multiplication_Optimized/blob/master/Formula.JPG)
 
-* Author,  Youssef Sbai idrissi
-* Maintainer, Youssef Sbai Idrissi
-* Date, 3 September 2017
-* Version, 0.1.0
-* Status, still in progress
+## Project Details
 
+- **Author**: Youssef Sbai Idrissi
+- **Maintainer**: Youssef Sbai Idrissi
+- **Date**: 3 September 2017
+- **Version**: 0.1.0
+- **Status**: Still in progress
